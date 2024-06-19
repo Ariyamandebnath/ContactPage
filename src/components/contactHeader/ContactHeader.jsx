@@ -1,12 +1,17 @@
 import styles from "./contactHeader.module.css"
 
-function ContactHeader() {
+const ContactHeader = () => {
   return (
-      <div className= { ` container ${styles.contact_section}`}>
-          <h1>Contact Us</h1>
-          <p>Contact Us page typically starts with a catchy header. This draws the visitor in and encourages them to utilize your support offers.Contact Us page typically starts with a catchy header. This draws the visitor in and encourages them to utilize your support offers.{" "}</p>
+    <div className={`${styles.contact_section}`}>
+      <h1>CONTACT US</h1>
+      <p>
+        LET’S CONNECT: WE’RE HERE TO HELP, AND WE’D LOVE TO HEAR FROM YOU!
+        WHETHER YOU HAVE A QUESTION, COMMENT, OR JUST WANT TO CHAT , YOU CAN
+        REACH OUT TO US THROUGH THE CONTACT FORM OF THIS PAGE, OR BY PHONE,
+        EMAIL, OR SOCIAL MEDIA.{" "}
+      </p>
     </div>
-  )
-}
+  );
+};
 
-export default ContactHeader
+export default ContactHeader;
