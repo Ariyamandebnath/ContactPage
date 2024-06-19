@@ -4,6 +4,7 @@
   height: 72px;
   align-items: center;
   justify-content: space-between;
+  background-color: yellow;
 }
 
 .navigation ul {
